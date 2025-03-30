@@ -144,7 +144,6 @@ return {
       return require "nvchad.configs.cmp"
     end,
   },
-
   {
     "nvim-telescope/telescope.nvim",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
