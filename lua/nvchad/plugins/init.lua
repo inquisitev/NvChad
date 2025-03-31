@@ -102,7 +102,7 @@ return {
   -- load luasnips + cmp related in insert mode only
   {
     "hrsh7th/nvim-cmp",
-    event = "InsertEnter",
+    event = "VeryLazy",
     dependencies = {
       {
         -- snippet plugin
