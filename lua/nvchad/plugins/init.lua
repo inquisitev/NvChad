@@ -93,7 +93,7 @@ return {
 
   {
     "neovim/nvim-lspconfig",
-    event = "User FilePost",
+    event = "VeryLazy",
     config = function()
       require("nvchad.configs.lspconfig").defaults()
     end,
